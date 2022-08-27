@@ -1,0 +1,13 @@
+table {
+  width: 100%;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+#wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 3rem;
+}
