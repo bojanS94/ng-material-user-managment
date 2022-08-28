@@ -18,11 +18,11 @@
     },
     {
       "id": 2,
-      "firstName": "Bojan",
-      "lastName": "Savic",
-      "username": "savicbo",
-      "password": "h412333",
-      "email": "bojan.savic@gmail.com",
+      "firstName": "Marko",
+      "lastName": "Markovic",
+      "username": "mmarko",
+      "password": "22aaasd",
+      "email": "marko.markovic@gmail.com",
       "status": "active"
     },
     {
