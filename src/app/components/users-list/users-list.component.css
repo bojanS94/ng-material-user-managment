@@ -11,3 +11,9 @@ th.mat-sort-header-sorted {
   margin: 0 auto;
   padding: 3rem;
 }
+
+.controls-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

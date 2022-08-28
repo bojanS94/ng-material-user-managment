@@ -1,0 +1,9 @@
+.dialog-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h4 {
+  font-size: 1.5rem;
+}

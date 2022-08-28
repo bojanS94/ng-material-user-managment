@@ -1,14 +1,14 @@
-import { LiveAnnouncer } from '@angular/cdk/a11y';
-import { MatSort, Sort } from '@angular/material/sort';
-import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { MatPaginator } from '@angular/material/paginator';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { Users } from 'src/app/interfaces/users';
 import { CrudService } from 'src/app/services/crud.service';
-import { MatDialog } from '@angular/material/dialog';
 import { DialogService } from 'src/app/services/dialog.service';
-import { MatSnackBar } from '@angular/material/snack-bar';
 import { MessagePopupComponent } from '../message-popup/message-popup.component';
+import { UserAddDialogComponent } from '../user-add-dialog/user-add-dialog.component';
 
 @Component({
   selector: 'app-users-list',
@@ -17,13 +17,12 @@ import { MessagePopupComponent } from '../message-popup/message-popup.component'
 })
 export class UsersListComponent implements OnInit, AfterViewInit {
 
-  users?: Users[];
+  userObject?: Users[];
   usersArray: Users[] = [];
-  durationInSeconds = 5;
+  durationInSeconds: number = 5;
 
   constructor(
     private crudService: CrudService,
-    private _liveAnnouncer: LiveAnnouncer,
     public dialog: MatDialog,
     private dialogService: DialogService,
     private _snackBar: MatSnackBar
@@ -46,24 +45,37 @@ export class UsersListComponent implements OnInit, AfterViewInit {
     )
   }
 
-  announceSortChange(sortState: Sort) {
-    if (sortState.direction) {
-      this._liveAnnouncer.announce(`Sorted ${sortState.direction}ending`);
-    } else {
-      this._liveAnnouncer.announce('Sorting cleared');
-    }
-  }
-
   filterChange(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue;
   }
 
-  deleteUser(user: Users) {
+  addNewUser() {
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.disableClose = true;
+    dialogConfig.autoFocus = true;
+    dialogConfig.width = "60%";
+
+    dialogConfig.data = {
+      id: 1,
+      firstName: 'Bojan',
+      lastName: 'Savic',
+      username: 'savicbo',
+      email: 'savic.bo@gmail.com',
+      password: '123123',
+      status: 'active'
+
+    }
+
+    this.dialog.open(UserAddDialogComponent, dialogConfig);
+  }
+
+  deleteUserDialog(user: Users) {
+    //Todo popraviti da se item ne brise na NO button
     this.dialogService.openConfirmDialog('Are you sure you want to delete this user?').afterClosed().subscribe(res => {
-      if (res) {
-        this.crudService.deleteUser(user);
-      }
+      this.crudService.deleteUser(user).subscribe(res => {
+        this.ngOnInit();
+      })
       this.openSnackBar();
     })
   }

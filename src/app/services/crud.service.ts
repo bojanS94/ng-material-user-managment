@@ -11,6 +11,8 @@ export class CrudService {
 
   serviceURL: string;
 
+  formData: Users;
+
   constructor(private http: HttpClient) {
     this.serviceURL = "http://localhost:3000/users"
   }
