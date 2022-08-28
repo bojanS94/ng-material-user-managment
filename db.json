@@ -8,24 +8,6 @@
   ],
   "users": [
     {
-      "id": 5,
-      "firstName": "Boyer",
-      "lastName": "Raymond",
-      "username": "Guadalupe",
-      "password": 81782937,
-      "email": "Delgado@Oconnor.com",
-      "status": ""
-    },
-    {
-      "id": 6,
-      "firstName": "Mandy",
-      "lastName": "Franklin",
-      "username": "Fran",
-      "password": 81782937,
-      "email": "Schwartz@Mclean.com",
-      "status": ""
-    },
-    {
       "id": 7,
       "firstName": "Fay",
       "lastName": "Ford",
@@ -104,15 +86,6 @@
       "username": "Christina",
       "password": 81782937,
       "email": "Forbes@Campos.com",
-      "status": ""
-    },
-    {
-      "id": 17,
-      "firstName": "Greene",
-      "lastName": "Stark",
-      "username": "Holly",
-      "password": 81782937,
-      "email": "Santana@Goff.com",
       "status": ""
     },
     {
@@ -254,6 +227,22 @@
       "email": "bojan@test.com",
       "password": "ajsndjkansd",
       "id": 40
+    },
+    {
+      "firstName": "bojan",
+      "lastName": "bojan",
+      "username": "bojan",
+      "email": "bojan@test.com",
+      "password": "bojan",
+      "id": 41
+    },
+    {
+      "firstName": "bojan",
+      "lastName": "bojan",
+      "username": "bojan",
+      "email": "boja@test.com",
+      "password": "121323",
+      "id": 42
     }
   ],
   "profile": {
