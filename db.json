@@ -1,0 +1,242 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "id": 7,
+      "firstName": "Fay",
+      "lastName": "Ford",
+      "username": "Robertson",
+      "password": 81782937,
+      "email": "Herrera@Robbins.com",
+      "status": ""
+    },
+    {
+      "id": 8,
+      "firstName": "Vaughn",
+      "lastName": "Austin",
+      "username": "Hutchinson",
+      "password": 81782937,
+      "email": "Karla@Jacobs.com",
+      "status": ""
+    },
+    {
+      "id": 9,
+      "firstName": "Merritt",
+      "lastName": "Rivera",
+      "username": "Eunice",
+      "password": 81782937,
+      "email": "Carrie@Mayo.com",
+      "status": ""
+    },
+    {
+      "id": 11,
+      "firstName": "Campbell",
+      "lastName": "Harding",
+      "username": "Freida",
+      "password": 81782937,
+      "email": "Jayne@Vega.com",
+      "status": ""
+    },
+    {
+      "id": 12,
+      "firstName": "Snyder",
+      "lastName": "Page",
+      "username": "Vance",
+      "password": 81782937,
+      "email": "Donaldson@Alvarez.com",
+      "status": ""
+    },
+    {
+      "id": 13,
+      "firstName": "Felecia",
+      "lastName": "Peck",
+      "username": "Shawn",
+      "password": 81782937,
+      "email": "Kay@Harrington.com",
+      "status": ""
+    },
+    {
+      "id": 14,
+      "firstName": "Mckinney",
+      "lastName": "Massey",
+      "username": "Koch",
+      "password": 81782937,
+      "email": "Mcfarland@Rasmussen.com",
+      "status": ""
+    },
+    {
+      "id": 15,
+      "firstName": "Randolph",
+      "lastName": "Velez",
+      "username": "Rodriquez",
+      "password": 81782937,
+      "email": "Annmarie@Obrien.com",
+      "status": ""
+    },
+    {
+      "id": 16,
+      "firstName": "Melton",
+      "lastName": "Cummings",
+      "username": "Christina",
+      "password": 81782937,
+      "email": "Forbes@Campos.com",
+      "status": ""
+    },
+    {
+      "id": 18,
+      "firstName": "Freeman",
+      "lastName": "Russell",
+      "username": "Catherine",
+      "password": 81782937,
+      "email": "Chan@Everett.com",
+      "status": ""
+    },
+    {
+      "id": 19,
+      "firstName": "Bonita",
+      "lastName": "Holmes",
+      "username": "Lenore",
+      "password": 81782937,
+      "email": "Ladonna@Goodwin.com",
+      "status": ""
+    },
+    {
+      "id": 20,
+      "firstName": "Hewitt",
+      "lastName": "Mcmillan",
+      "username": "Ewing",
+      "password": 81782937,
+      "email": "Boone@Summers.com",
+      "status": ""
+    },
+    {
+      "id": 21,
+      "firstName": "Meadows",
+      "lastName": "Chandler",
+      "username": "Serena",
+      "password": 81782937,
+      "email": "Mack@Jimenez.com",
+      "status": ""
+    },
+    {
+      "id": 22,
+      "firstName": "Janet",
+      "lastName": "Ellison",
+      "username": "Trudy",
+      "password": 81782937,
+      "email": "Wong@Collins.com",
+      "status": ""
+    },
+    {
+      "id": 23,
+      "firstName": "Robin",
+      "lastName": "Rollins",
+      "username": "Lorie",
+      "password": 81782937,
+      "email": "Holland@Barnes.com",
+      "status": ""
+    },
+    {
+      "id": 24,
+      "firstName": "Horne",
+      "lastName": "Clarke",
+      "username": "Bender",
+      "password": 81782937,
+      "email": "Jacklyn@Hubbard.com",
+      "status": ""
+    },
+    {
+      "id": 25,
+      "firstName": "Marisol",
+      "lastName": "Rice",
+      "username": "Louella",
+      "password": 81782937,
+      "email": "Ellison@Knight.com",
+      "status": ""
+    },
+    {
+      "id": 26,
+      "firstName": "Hester",
+      "lastName": "Finley",
+      "username": "Duke",
+      "password": 81782937,
+      "email": "Nunez@Patrick.com",
+      "status": ""
+    },
+    {
+      "id": 27,
+      "firstName": "Elvira",
+      "lastName": "Case",
+      "username": "Maddox",
+      "password": 81782937,
+      "email": "Ana@Michael.com",
+      "status": ""
+    },
+    {
+      "id": 28,
+      "firstName": "Franks",
+      "lastName": "Harper",
+      "username": "Kent",
+      "password": 81782937,
+      "email": "Flowers@Harrell.com",
+      "status": ""
+    },
+    {
+      "firstName": "bojan",
+      "lastName": "",
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 31
+    },
+    {
+      "firstName": "bojan",
+      "lastName": "",
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 33
+    },
+    {
+      "firstName": "Bojan",
+      "lastName": "Savic",
+      "username": "username",
+      "email": "bojan@test.com",
+      "password": "123123",
+      "id": 39
+    },
+    {
+      "firstName": "bojan",
+      "lastName": "savic",
+      "username": "asdasd",
+      "email": "bojan@test.com",
+      "password": "ajsndjkansd",
+      "id": 40
+    },
+    {
+      "firstName": "bojan",
+      "lastName": "bojan",
+      "username": "bojan",
+      "email": "bojan@test.com",
+      "password": "bojan",
+      "id": 41
+    },
+    {
+      "firstName": "bojan",
+      "lastName": "bojan",
+      "username": "bojan",
+      "email": "boja@test.com",
+      "password": "121323",
+      "id": 42
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
