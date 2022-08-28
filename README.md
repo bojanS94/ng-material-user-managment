@@ -4,8 +4,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Before you start:
 
-1. Install json-server extension for mocking data from: https://www.npmjs.com/package/json-server?activeTab=readme#getting-started
-2. start server with json-server --watch db.json command
+1. First of all install node modules for dependencies
+2. Install json-server extension for mocking data from: https://www.npmjs.com/package/json-server?activeTab=readme#getting-started
+3. Make sure you are in root folder of the project, not the outside, otherwise json-server command will create new db.json empty file
+4. start server with json-server --watch db.json command
 
 ## Development server
 
